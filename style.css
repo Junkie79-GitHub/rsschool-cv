@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  color: grey;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+h2 {
+  color: orangered;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: verdana;
+  font-size: 16px;
+  font-style: italic;
+}
+
+h2::first-letter {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: orangered;
+  cursor: pointer;
+} 
+
+table {
+margin: 0 auto;
+}
+
+img {
+  border-radius: 75%;
+  border: 3px solid orangered;
+}
+
+main {
+  align-content: center;
+}
+
+section {
+  align-content: center;
+}
+
+.sv {
+  all: unset;
+  background-color: white;
+  width: 120px;
+  height: 25px;
+}
