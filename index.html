@@ -1,12 +1,142 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<title>Empty html Page</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/1.ico" />
 </head>
 <body>
-
-<h1>Name</h1>
-<p>Contacts</p>
-
+<!-- header -->
+<header>
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">О себе</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Примеры кода</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Курсы</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Образование</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">Языки</a></li>
+        </ul>
+      </nav> 
+</header>
+<!-- main -->
+<main>
+    <!-- секция приветствия -->
+    <section>
+        <table>
+            <tr>
+                <td>
+                    <img src="image.png" alt="photo" />
+                </td>
+                <td>
+                    <h1>Константин Барышев </h1>
+                    <p>музыкант, преподаватель</p>
+                    <p>а теперь ещё... и...</p>
+                    <p>начинающий программист</p>
+                </td>
+            </tr>   
+        </table>  
+    </section>
+    <!-- секция Контакты -->
+    <section>
+        <h2 id="contacts">Контакты</h2>
+        <p>Пока CV оформляется, позже поделюсь и другими контактами а пока</p>
+        <p>
+            <a href="https://github.com/Junkie79-GitHub">Профиль на github</a>
+        </p>
+    </section>
+    <!-- секция О себе -->
+    <section>
+        <h2 id="summary">О себе</h2>
+        <p>Родился в Лениенграде в 1979 году</p>
+        <p>Мечтал стать хоккеистом или футболистом (на худой конец)...Школу терпел, как и всё остальное</p>
+        <p></p>
+        <p>Пока лет в 12-13 практически одновременно не влюбился и в музыку, и в компы</p>
+        <p>На свой самый первый комп заработал сам, а пока копил, зубрил какую то книгу про Basic</p>
+        <p>Программированием как хобби занимаюсь с начала 90-х</p>
+        <p>Это всегда было моим увлечением, но никогда ничего серьёзного</p>
+        <p>От простеньких игрушек на sinclair basic до торговых роботов на MQL</p>
+        <p>Немного вёрски под копирку и много-много задач и курсов</p>
+        <p>На жизнь зарабатываю прподаванием музыки. В свободное время играю рок</p>
+        <p>По поводу IT, кодинга и всего такого надежд особых не питаю</p>
+        <p>Просто люблю всё это...</p>
+        <p>А ещё... вдруг что-то из моих стараний полезное получится</p> 
+    </section>
+    <!-- секция Навыки -->
+    <section>
+        <h2 id="skills">Навыки</h2>
+        <p>В итоге я не много знаю:</p>
+        <p>Python - в основном на уровне учебных задач разной сложности, но в отрыве от практики</p>
+        <p>С++ - общее преставление, так же задачи в основном</p>
+        <p>Надеюсь, скоро смогу что-то более существенное написать здесь</p>
+    </section>
+    <!-- секция Примеры кода -->
+    <section>
+        <h2 id="code">Примеры кода</h2>
+        <p>Я очень люблю писать торговых роботов на си-подобноном MQL4</p>
+        <p>Это моё хобби уже много-много лет, но там всё очень по-любительски</p>
+        <p>К тому же, они все сейчас очень заняты, не будем их отвлекать ;)</p>
+    </section>
+    <!-- секция Курсы -->
+    <section>
+        <h2 id="courses">Курсы</h2>
+        <p>Все время где-то учусь, самые первые годовые курсы</p>           
+        <p>по программированию прошёл ещё в 1994 году тогда это был язык Basic</p>
+        <p>а из недавних могу вспомнить эти:</p>  
+        <p>
+            <a href="https://stepik.org/cert/2132812">2023-"Поколение Python курс для начинающих"</a>
+        </p>
+        <p>
+            <a href="https://stepik.org/cert/2223484">2023-"Поколение Python курс для продвинутых"</a>
+        </p>
+        <p>
+            <a href="https://stepik.org/cert/2204598">2023-"Введение в программирование C++"</a>
+        </p>
+        <p>
+            <a href="https://nspedagogov.ru">2024-"Программирование и создание IT продуктов на языке Python"</a>
+        </p>
+    </section>
+    <!-- секция Проекты -->
+    <section>
+        <h2 id="projects">Проекты</h2>
+        <p>Я никогда не участвовал в каком-то проекте</p>
+        <p>Очень надеюсь, что вскоре этот блок изменится, и я смогу поделиться чем-то интересным</p>
+    </section>
+    <!-- секция Образование -->
+    <section>
+        <h2 id="education">Образование</h2>
+        <p>В 2009 году я окончил Санкт-Петербургский университет культуры и искусств</p>
+        <p>Через несколько лет я прошёл там же профессиональную переподготовку</p>
+        <p>В моей профессиональной деятельности как музыканта и преподавателя</p>
+        <p>Это стало мощнейшим толчком для роста... но кодить там не учили...</p>
+    </section>
+    <!-- секция -->
+    <section>
+        <h2 id="english">Языки</h2>
+        <p>русский: родной</p>
+        <p>английский: начальный уровень</p>
+    </section>      
+</main>
+<!-- footer -->
+<footer>
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">О себе</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Приимеры кода</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Курсы</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Образование</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">Языки</a></li>
+        </ul>
+    </nav>
+    <p>
+    <a href="https://github.com/Junkie79-GitHub">2024 Junkie79</a>
+    <a href="https://rs.school/courses/javascript-ru"><img class="sv" src="assets/rs-school-logo.svg" alt="Rsschool"></a>
+    </p>    
+</footer>
 </body>
 </html>
